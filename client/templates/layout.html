@@ -1,0 +1,38 @@
+<template name="layout">
+    <header>
+        <div class="container">
+            <h2>An Inventory Management application</h2>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/products">Products</a>
+                </li>
+                <li>
+                    <a href="/po">Purchase Orders</a>
+                </li>
+                <li>
+                    <a href="/inventory">Inventory</a>
+                </li>
+                <li>
+                    <a href="/sales">Sales</a>
+                </li>
+                <li>
+                    <a href="/reports">Reports</a>
+                </li>
+                <li>
+                    <a href="/help">Help</a>
+                </li>
+                <li>
+                    <a href="/tools">Tools</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+             {{> index}}
+        </main>
+    </div>
+</template>
