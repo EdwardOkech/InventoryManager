@@ -2,7 +2,8 @@
     Welcome to Inventory Manager
     This application helps in inventory management
 
-    {{#each productsList}}
-       {{products}}
+    {{#each products}}
+       {{> productsList}}
     {{/each}}
+    <button class="lazyload">Load More</button>
 </template>
